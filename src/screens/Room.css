@@ -1,12 +1,14 @@
 .room-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f4f8;
-    padding: 20px;
-    position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* padding: 20px; */
+  position: relative;
+  background-image: url('./background.jpg'); /* Update with your image path */
+  background-size:cover;
+  background-position: center;
   }
   
   .room-title {
